@@ -1,0 +1,32 @@
+.container{
+    height: 710px;
+    width: 100%;
+    margin: auto;
+}
+
+.nav{
+    display: flex;
+    height: 12%;
+    width: 99.5%;
+    justify-content: flex-end;
+    background-color: rgb(248, 247, 187);
+    border: 6px solid black;
+}
+
+.boxes{
+    display: flex;
+    height: 50%;
+    width: 45%;
+    margin-top: 1%;
+    justify-content: space-evenly;
+}
+
+.boxes>div{
+    height: 100%;
+    width: 25%;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
